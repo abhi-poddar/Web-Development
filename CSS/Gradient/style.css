@@ -19,3 +19,15 @@
     background-image: radial-gradient(circle,blue,red);
     background-image: radial-gradient(yellow 5%,orange 10%,red 50%);
 }
+.grad1{
+    height: 100px;
+    width: 100px;
+    background-image: conic-gradient(red,yellow,green);
+    background-image: conic-gradient(red,yellow,green,blue,black);
+    background-image: conic-gradient(red 45deg,yellow 90deg,green 210deg);
+    border-radius: 50%;
+    background-image: conic-gradient(red 0deg, red 90deg, yellow 90deg, yellow 180deg, green 180deg, green 270deg, blue 270deg);
+    background-image: conic-gradient(from 90deg, red, yellow, green);
+    background-image: conic-gradient(at 60% 45%, red, yellow, green);
+    background-image: repeating-conic-gradient(red 10%,yellow 20%);
+}
